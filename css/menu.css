@@ -1,0 +1,39 @@
+#menu{
+	width: 100%;
+	height: 55px;
+	background-color: rgba(238,238,238,.2);
+	box-shadow: 0px -1px 1px gainsboro;
+	display: flex;
+}
+
+#menu-wechat{
+	height: 80%;
+	//margin-left: 40px;
+	//flex: 1.5;
+	
+}
+.menu-photo{
+	height: 50px;
+	width:50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#menu-tongxunlu{
+	height: 80%;
+	//flex: 1.5;
+}
+#menu-search{
+	height: 80%;
+	//flex: 1.5;
+}
+#menu-mi{
+	height: 80%;
+	//margin-right: 40px;
+	//flex: 1.5;
+}
+#menu-font{
+	font-family:"agency fb";
+	font-size: 10px;
+	color: gray;
+}

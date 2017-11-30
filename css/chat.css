@@ -1,0 +1,180 @@
+#chat{
+	width: 100%;
+	height: 100%;
+	//background-color: lightcyan;
+	flex: 1;
+	overflow-y: scroll;
+}
+#items{
+	width: 100%;
+	height: 65px;
+	
+}
+#items-container{
+	width: 96%;
+	/*box-shadow: 0px 1px 1px #E0E0E0;*/
+	border-bottom: 1px solid #E0E0E0;
+}
+
+#items-left{
+	width: 54px;
+	height: 54px;
+	
+}
+#left-img{
+	height: 80%;
+	width: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#new-msg{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: lightcoral;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+}
+
+#new-msg-with-count{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: lightcoral;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: white;
+	font-size: 8px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 14px;
+	
+}
+
+
+#items-center{
+	height: 54px;
+	flex: 1;
+	flex-flow: column;
+	
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#center-name{
+	font-family: "微软雅黑";
+	text-indent: 6px;
+	font-size: 18px;
+	color: #212121;
+	font-weight: 300;
+}
+#center-content{
+	font-family: "微软雅黑";
+	font-size: 13px;
+	font-weight: 300;
+	text-indent: 6px;
+	color:gray ;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#items-right{
+	height: 54px;
+	width: 70px;
+	flex-flow: column;
+}
+
+#right-time{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	position:absolute;
+	top: 5px;
+	right: 2px;
+}
+
+#right-other{
+	background-image: url(../img/禁止提醒.svg) ;
+	width: 30%;
+	height: 30%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	bottom: 5px;
+	right: 2px;
+}
+
+
+#chat-content{
+	width: 100%;
+   height: 100%;
+   background-color: lightgreen;
+}
+#content-top{
+	width: 100%;
+	flex: 1;
+	height: 100px;
+	
+	overflow: scroll;
+	color: lightgray;
+	font-family: "微软雅黑";
+}
+
+
+#size{
+	min-height: 30px;
+	max-width: 80%;
+	
+}
+#left{
+	float: left;
+	background-color: lemonchiffon;
+}
+#right{
+	float: right;
+	background-color: whitesmoke;
+	text-align: right;
+}
+#content-bottom{
+	width: 100%;
+	height: 54px;
+	background-color: white;
+	
+}
+#bottom-left{
+	width: 45px;
+	height: 45px;
+}
+#bottom-left-svg{
+	width: 40px;
+	height: 40px;
+	background-image:url(../img/语音.svg) ;
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#bottom-center{
+	height: 35px;
+	border: none;
+	border-bottom: 1px solid darkgrey;
+	flex: 1;
+	text-indent: 5px;
+}
+#bottom-right{
+	width: 45px;
+	height: 30px;
+	background-color: lightgreen;
+	border: none;
+}
+
+
+
+
